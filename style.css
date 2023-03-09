@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background: #b1ccc6;
+    font-family: sans-serif;
+    background-image: url("diplome.jpg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-variant-caps: all-small-caps;
+    font-weight: 200;
+    font-size: 5rem;
+    margin: 40px 0px 40px;
+}
+
+#decompte {
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    font-variant-caps: all-small-caps;
+}
+
+#decompte>div {
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background: #000000;
+    display: inline-block;
+    width: 150px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    opacity: 0.6;
+}
+
+.small {
+    font-size: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: 10px;
+    width: 100%;
+}
